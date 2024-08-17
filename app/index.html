@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="large-hero">
+        <!-- <img src="images/hero--large-hi-dpi.jpg"> -->
+         <picture>
+            <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width:1200px)">
+            <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width:992px)">
+            <source srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width:768px)">
+            <img srcset="assets/images/hero--smaller.jpg 650w, assets/images/hero--small-hi-dpi.jpg  18980w" >
+         </picture>
+        <div class="large-hero__text-content">
+            <h2 class="large-hero__title">Your Clarity</h2>
+            <h3 class="large-hero__subtitle">One trip away</h3>
+            <p class="large-hero__description">We create soul restoring journeys that inspire you to be you</p>
+            <a href="" class="btn btn__orange">Get Started Today</a>
+        </div>
+    </div>
+    <div class="page-section">
+        <div class="container">
+            <h2>The first trip was planned <strong>our own</strong></h2>
+            <h3>Ever since we&rsquo;ve been working to make travel <strong>better for everyone</strong></h3>
+            <div class="row justify-content-center" > 
+                <div class="col-sm-12 col-md-8">
+                    <div class="page-section__display-image">
+                        <img srcset="assets/images/first-trip-low-res.jpg 565w , assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1925w">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <picture>
+                        <source srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width:1000px)">
+                        <source srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-landscape-hi-dpi.jpg 764w" media="(min-width:800px)">
+                        <img src="" alt="" srcset="assets/images/our-start-landscape-hi-dpi.jpg 1600w">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.bundled.js"></script>
+</body>
+</html>
