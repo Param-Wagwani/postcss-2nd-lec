@@ -4,13 +4,13 @@
     }
 }
 
-@define-mixin atMedium{
+@define-mixin mediumScreen{
     @media(min-width: 992px){
         @mixin-content
     }
 }
 
-@define-mixin atLarge{
+@define-mixin largeScreen{
     @media(min-width: 1200px){
         @mixin-content
     }

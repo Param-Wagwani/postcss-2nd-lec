@@ -8,12 +8,12 @@
 <body>
     <div class="large-hero">
         <!-- <img src="images/hero--large-hi-dpi.jpg"> -->
-         <picture>
+        <picture>
             <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width:1200px)">
-            <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width:992px)">
-            <source srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width:768px)">
-            <img srcset="assets/images/hero--smaller.jpg 650w, assets/images/hero--small-hi-dpi.jpg  18980w" >
-         </picture>
+            <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760" media="(min-width:992px)">
+            <source srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--small-hi-dpi.jpg 3840w" media="(min-width:1980w)">
+            <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero-smaller-hi-dpi 1980w">
+        </picture>
         <div class="large-hero__text-content">
             <h2 class="large-hero__title">Your Clarity</h2>
             <h3 class="large-hero__subtitle">One trip away</h3>
@@ -21,29 +21,129 @@
             <a href="" class="btn btn__orange">Get Started Today</a>
         </div>
     </div>
-    <div class="page-section">
+    <div class="page-section" id="our-start">
         <div class="container">
-            <h2>The first trip was planned <strong>our own</strong></h2>
-            <h3>Ever since we&rsquo;ve been working to make travel <strong>better for everyone</strong></h3>
-            <div class="row justify-content-center" > 
+            <h2 class="headline headline__light headline__blue">The first trip was planned <strong>our own</strong></h2>
+            <h3 class="headline headline__small headline__orange">Ever since we&rsquo;ve been working to make travel <strong>better for everyone</strong></h3>
+
+            <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-8">
                     <div class="page-section__display-image">
-                        <img srcset="assets/images/first-trip-low-res.jpg 565w , assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1925w">
+                        <img srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1925w" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-3">
                     <picture>
                         <source srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width:1000px)">
                         <source srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-landscape-hi-dpi.jpg 764w" media="(min-width:800px)">
-                        <img src="" alt="" srcset="assets/images/our-start-landscape-hi-dpi.jpg 1600w">
+                        <img srcset="assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="">
                     </picture>
+                </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h3 class="headline headline__blue headline__left headline__light headline__t-margin">
+                    Here&rsquo;s how we started...
+                </h3>
+            <div class="generic-typography">
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem fugit voluptate ad assumenda eligendi iste dicta magni, nobis accusantium, praesentium natus minus nisi, repellat totam? Delectus dolorum doloremque <a href="#"><strong>distinctio natus</strong></a> fugit animi hic sit enim quidem molestias amet expedita ab voluptate cum aliquid quae optio commodi, sunt provident sequi temporibus iste nam tenetur? Dignissimos dolor similique cum nobis ducimus, quibusdam magni placeat? Nostrum veniam voluptates eveniet quaerat ullam? Vero ullam ab magnam fuga aliquid voluptatem ex ea enim sed? Magni quod repellendus, cumque dolorum inventore cupiditate laudantium corrupti ducimus quo aliquam laboriosam quos fuga reiciendis architecto et pariatur numquam.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur <a href="#"><strong>adipisicing elit</strong></a>. Ipsam autem odio vero voluptate exercitationem velit dolor distinctio ratione iure, optio, eligendi perferendis in, cumque incidunt.</p>
+            </div>
+        </div>  
+      </div>
+    </div>
+</div>
+
+<div id="features" class="page-section page-section__blue">
+    <div class="container">
+        <h2 class="section-title section-title__white">Our <strong>Features</strong></h2>
+        <div class="row generic-typography justify-content-evenly">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="feature-item">
+                    <img src="./assets/images/icons/rain.svg" alt="" class="feature-item__icon">
+                    <h3 class="feature-item__title">We&rsquo;ll watch the weather</h3>
+                    <p class="feature-item__description">Download our app we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="feature-item">
+                    <img src="./assets/images/icons/globe.svg" alt="" class="feature-item__icon">
+                    <h3 class="feature-item__title">We&rsquo;ll watch the weather</h3>
+                    <p class="feature-item__description">Download our app we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row generic-typography justify-content-evenly">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="feature-item">
+                    <img src="./assets/images/icons/globe.svg" alt="" class="feature-item__icon">
+                    <h3 class="feature-item__title">We&rsquo;ll watch the weather</h3>
+                    <p class="feature-item__description">Download our app we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="feature-item">
+                    <img src="./assets/images/icons/wifi.svg" alt="" class="feature-item__icon">
+                    <h3 class="feature-item__title">We&rsquo;ll watch the weather</h3>
+                    <p class="feature-item__description">Download our app we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
                 </div>
             </div>
         </div>
     </div>
-    <script src="app.bundled.js"></script>
+</div>
+
+<div id="testimonials" class="page-section page-section__testimonial page-section__no-padding-until-large">
+    <div class="container">
+        
+            <h2 class="section-title section-title__blue section-title__b-margin-testimonials">Our <strong>Testimonials</strong></h2>
+            <div class="row generic-typography">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="testimonial">
+                        <div class="testimonial__image">
+                            <img src="assets/images/testimonial-jane.jpg" alt="">
+                        </div>
+                        <h3 class="testimonial__title">Jane Doe</h3>
+                        <h3 class="testimonial__subtitle">9 Time Escaper</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nobis, architecto quam distinctio culpa at consequuntur quibusdam aperiam sunt praesentium.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sed facilis quaerat possimus dignissimos vel harum modi? Voluptatem nesciunt, nobis iste odio fugiat ipsam, fugit earum harum magni illo officiis.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="testimonial">
+                        <div class="testimonial__image">
+                            <img src="assets/images/testimonial-jane.jpg" alt="">
+                        </div>
+                        <h3 class="testimonial__title">Jane Doe</h3>
+                        <h3 class="testimonial__subtitle">9 Time Escaper</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nobis, architecto quam distinctio culpa at consequuntur quibusdam aperiam sunt praesentium.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sed facilis quaerat possimus dignissimos vel harum modi? Voluptatem nesciunt, nobis iste odio fugiat ipsam, fugit earum harum magni illo officiis.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="testimonial">
+                        <div class="testimonial__image">
+                            <img src="assets/images/testimonial-jane.jpg" alt="">
+                        </div>
+                        <h3 class="testimonial__title">Jane Doe</h3>
+                        <h3 class="testimonial__subtitle">9 Time Escaper</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nobis, architecto quam distinctio culpa at consequuntur quibusdam aperiam sunt praesentium.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sed facilis quaerat possimus dignissimos vel harum modi? Voluptatem nesciunt, nobis iste odio fugiat ipsam, fugit earum harum magni illo officiis.</p>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+<div id="footer">
+    <div class="footer">
+        <div class="footer__text">
+            <p>Copyrights &copy; 2024 <a href="#">Phila Tours</a> All rights reserved.</p>
+        </div>
+    </div>
+</div>
+<script src="app.bundled.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ const postCSSPlugins = [
     require('postcss-mixins')
 ]
 module.exports = {
-    entry:"./app/scripts/app.js",  //entry point dene ke liye bundler ko
+    entry:"./app/assets/scripts/app.js",  //entry point dene ke liye bundler ko
     output: {
         filename:"app.bundled.js",
         path: path.resolve(__dirname,"app")
